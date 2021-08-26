@@ -13,7 +13,7 @@ const projectSlice = createSlice({
     },
     reducers: {},
     extraReducers: {
-        'columns/createColumn': (state: any, action) => {
+        'columns/createColumn': (state, action) => {
             console.log('[projectSlice]:', action);
         },
     },
